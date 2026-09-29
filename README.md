@@ -1,11 +1,11 @@
-# ⚡ PromptCraft Matrix: Automated LLM-as-a-Judge Benchmarking Suite
+# PromptCraft Matrix: Automated LLM-as-a-Judge Benchmarking Suite
 
 A Streamlit-powered evaluation tool that runs prompt variations against custom datasets and uses a structured LLM-as-a-Judge model to compare accuracy, relevance, formatting adherence, and execution latency.
 This project was made for academic purposes.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 When building applications on top of Large Language Models (LLMs), evaluating prompt changes manually is slow and unscientific. **PromptCraft Matrix** automates this evaluation workflow by:
 1. Running user test cases through two candidate prompt configurations (e.g., **Baseline Zero-Shot** vs. **Engineered Chain-of-Thought**).
@@ -14,7 +14,7 @@ When building applications on top of Large Language Models (LLMs), evaluating pr
 
 ---
 
-## 🛠️ Key Prompt Engineering Concepts Demonstrated
+## Key Prompt Engineering Concepts Demonstrated
 
 - **Structured Outputs & Schema Validation:** Leverages Pydantic models with JSON Schema generation to guarantee raw, deterministic JSON outputs from the LLM Judge.
 - **Chain-of-Thought (CoT) Reasoning:** Forces the Judge model to state its step-by-step reasoning in `chain_of_thought` *before* outputting scores to eliminate rating hallucinations.
@@ -23,7 +23,7 @@ When building applications on top of Large Language Models (LLMs), evaluating pr
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 
 ```
@@ -49,7 +49,7 @@ When building applications on top of Large Language Models (LLMs), evaluating pr
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -65,7 +65,7 @@ When building applications on top of Large Language Models (LLMs), evaluating pr
 
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### Prerequisites
 
